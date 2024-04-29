@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "json.h": "c",
+        "mutex": "cpp",
+        "thread": "cpp"
+    }
+}

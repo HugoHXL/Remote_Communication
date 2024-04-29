@@ -6,7 +6,7 @@
 #include"chat_list.h"
 #include"chat_database.h"
 #include<string.h>
-#include<json/json.h>
+#include<jsoncpp/json/json.h>
 
 
 class ChatThread
