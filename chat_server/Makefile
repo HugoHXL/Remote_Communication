@@ -4,4 +4,4 @@ main:$(OBJECT)
 	g++ $(OBJECT) -o main -levent -lmysqlclient -lpthread -std=c++11 -ljsoncpp
 
 clean:
-	rm -f *.o main
+	rm -f *.o main  
