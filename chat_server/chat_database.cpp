@@ -24,7 +24,7 @@ bool DataBase::database_connect()
 		return false;
 	}
 
-	//设置编码格式   (防止中文乱码）
+	//设置客户端编码格式   (防止中文乱码）
 	if(mysql_query(mysql, "set names utf8;")!=0)
 	{
 		std::cout<<"set names utf8 error"<<std::endl;
